@@ -1,18 +1,15 @@
 var deliveryBoy = {
     name: "John",
 
-    handleMessage: function(message, hangler) {
+    handleMessage: function(message, handler) {
         handler(message);
     },
 
     receive: function() {
-        var that = this;
 
-        this.handleMessage("Hello, ", function(message) {
-            that.name //get the proper name
 
-            console.log(message + that.name);
-        })
+        this.handleMessage("Hello, ", message => console.log(message + this.name))
+
     }
 }
-deliverBoy.receive();
+deliveryBoy.receive();
