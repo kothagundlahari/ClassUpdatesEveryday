@@ -3,4 +3,4 @@ const products =
 
 products
     .filter(product => parseFloat(product.innerHTML) < 10)
-    .forEach(product => product.style.color = 'red');
+    .forEach(product => product.style.color = 'red')
