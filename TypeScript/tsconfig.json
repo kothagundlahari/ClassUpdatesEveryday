@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "rootDir": "./src"
 
     "target": "es5",
 
@@ -13,8 +14,8 @@
     "noEmitOnError": true
 
   },
-  "files": [
-    "main.ts"
+  "exclude":[
+    "node_modules"
   ]
 
 }

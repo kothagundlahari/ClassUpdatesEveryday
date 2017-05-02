@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <title>TypeScript Trails</title>
+  <script type="text/javascript" src="https://unpkg.com/systemjs@0.20.12/dist/system.js">
+
+  </script>
+</head>
+<body>
+
+<script >
+  System.config({
+    packages:{
+      "dist":{
+        "defaultExtensions":"js",
+        "main": "main"
+      }
+    }
+  })
+
+System.import("dist");
+</script>
+
+</body>
+</html>
