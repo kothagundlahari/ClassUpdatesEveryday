@@ -1,4 +1,3 @@
-"use strict";
 var Two = (function () {
     function Two() {
     }
