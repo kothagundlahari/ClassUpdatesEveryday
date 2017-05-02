@@ -1,10 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-require("./two");
+var two_1 = require("./two");
 var App = (function () {
     function App() {
-        console.log("I am main");
+        console.log("I am from main");
     }
     return App;
 }());
 new App();
+new two_1.Two();

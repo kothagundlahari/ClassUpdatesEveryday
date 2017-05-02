@@ -1,6 +1,6 @@
 export class Two{
 
-  constructor{
+  constructor(){
     console.log(`I am from class two`)
   }
 

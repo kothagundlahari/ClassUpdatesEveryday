@@ -1,6 +1,6 @@
 import {Two} from "./two";
 
-new Two();
+
 
 class App{
 
@@ -11,3 +11,4 @@ constructor(){
 }
 
 new App();
+new Two();
