@@ -24,4 +24,3 @@ import {MailService} from './mail.service'
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-export class AppComponent {}
