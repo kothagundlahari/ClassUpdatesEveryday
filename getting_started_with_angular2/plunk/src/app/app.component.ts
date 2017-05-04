@@ -15,7 +15,7 @@ import { Component, Inject } from '@angular/core';
     >
 
   </app-simple-form>
-<p>this is hari2</p>
+
 
 </div>`,
   styles:[`
