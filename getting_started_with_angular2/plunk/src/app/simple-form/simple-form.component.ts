@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import {AppComponent} from './app.module';
 
 @Component({
   selector: 'app-simple-form',
@@ -27,8 +26,4 @@ export class SimpleFormComponent implements OnInit {
   ngOnInit() {
   }
 
-}
-
-export Class AppComponent {
-  
 }
