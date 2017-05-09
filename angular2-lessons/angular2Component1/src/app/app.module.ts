@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import {HomeModule} from './home/home.module';
+import {WidgetOneModule } from "./widgets/widgets.module";
+
 
 @NgModule({
   declarations: [
@@ -13,7 +15,8 @@ import {HomeModule} from './home/home.module';
     BrowserModule,
     FormsModule,
     HttpModule,
-  HomeModule
+    HomeModule,
+    WidgetOneModule
   ],
   providers: [],
   bootstrap: [AppComponent]
