@@ -1,5 +1,5 @@
 {
-  "name": "angular2-components",
+  "name": "angular2-component1",
   "version": "0.0.0",
   "license": "MIT",
   "angular-cli": {},
@@ -40,7 +40,7 @@
     "karma-remap-istanbul": "^0.2.1",
     "protractor": "~4.0.13",
     "ts-node": "1.2.1",
-    "tslint": "^4.5.1",
-    "typescript": "^2.0.10"
+    "tslint": "^4.3.0",
+    "typescript": "~2.0.3"
   }
 }
