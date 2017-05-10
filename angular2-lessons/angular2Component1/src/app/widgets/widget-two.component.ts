@@ -14,9 +14,10 @@ export class WidgetTwoComponent {
   constructor(private renderer:Renderer){}
 
   ngAfterViewInit(){
-    this.renderer.invokeElementMethod(
-      this.input.nativeElement,
-        'focus'
-    )
-  }
+        this.renderer.invokeElementMethod(
+            this.input.nativeElement,
+            'focus',
+            []
+        );
+    }
 }
