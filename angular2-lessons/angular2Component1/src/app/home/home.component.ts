@@ -6,11 +6,13 @@ import {WidgetOneComponent} from "../widgets/widget-one.component"
   selector: 'home',
 
   template: `
-  <div>I'm a Home component</div>
-  <div>{{simpleService.message}}</div>
+  <h2 header>Title</h2>
+  <div content>Some content</div>
+  <h3 footer>Footer</h3>
+
 
 `
-/**    <widget-one></widget-one> .*/
+  /**    <widget-one></widget-one> .*/
 })
 export class HomeComponent {
   constructor(private simpleService: SimpleService) { };

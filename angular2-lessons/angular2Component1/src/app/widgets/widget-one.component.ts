@@ -10,7 +10,14 @@ import {Component, Input} from "@angular/core";
 `],
 
   template: `
-<ng-content></ng-content>
+
+
+  <ng-content select="[header]"></ng-content>
+  <ng-content select="[content]"></ng-content>
+
+  <ng-content select="[footer]"></ng-content>
+
+
 
 `
 
