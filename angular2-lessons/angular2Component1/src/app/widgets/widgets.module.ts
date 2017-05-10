@@ -8,6 +8,7 @@ import {CommonModule} from "@angular/common";
 @NgModule({
   imports: [CommonModule],
   declarations: [WidgetOneComponent,  WidgetTwoComponent],
+  entryComponents:[WidgetTwoComponent],
   exports: [WidgetOneComponent, WidgetTwoComponent,CommonModule]
 })
 export class WidgetOneModule {}

@@ -1,19 +1,20 @@
-
-import {Component} from "@angular/core";
-import {SimpleService} from "../service/service.module";
-import {WidgetOneComponent} from "../widgets/widget-one.component"
+import {Component, ViewChild, ViewContainerRef, ComponentFactoryResolver} from "@angular/core";
+import {WidgetTwoComponent} from "../widgets/widget-two.component";
 @Component({
-  selector: 'home',
-
-  template: `
-  <h2 header>Title</h2>
-  <div content>Some content</div>
-  <h3 footer>Footer</h3>
-
-
+    selector: 'home',
+    template: `
+<div #container></div>
 `
-  /**    <widget-one></widget-one> .*/
 })
-export class HomeComponent {
-  constructor(private simpleService: SimpleService) { };
+export class HomeComponent{
+    @ViewChild('container', {read:ViewContainerRef}) container;
+
+    constructor(private resolver:ComponentFactoryResolver){}
+
+    ngAfterContentInit(){
+        const widgetFactory = this.resolver.resolveComponentFactory(WidgetTwoComponent);
+
+        this.container.createComponent(widgetFactory);
+
+    }
 }
