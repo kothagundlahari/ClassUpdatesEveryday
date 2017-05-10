@@ -10,8 +10,7 @@ import {Component, Input} from "@angular/core";
 `],
 
   template: `
-<h2>One's message:</h2>
-
+<ng-content></ng-content>
 
 `
 
