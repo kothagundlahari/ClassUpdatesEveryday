@@ -8,9 +8,9 @@ import {WidgetOneComponent} from "../widgets/widget-one.component"
   template: `
   <div>I'm a Home component</div>
   <div>{{simpleService.message}}</div>
-  <widget-one></widget-one>
-`
 
+`
+/**    <widget-one></widget-one> .*/
 })
 export class HomeComponent {
   constructor(private simpleService: SimpleService) { };
