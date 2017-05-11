@@ -1,11 +1,11 @@
 import {Component, ViewChild, Renderer, Input} from "@angular/core";
 @Component({
-    selector: 'widget-two',
+    selector: 'widget-three',
     template: `
 <input #input type="text" [value]="message">
 `
 })
-export class WidgetTwoComponent{
+export class WidgetThree{
     @ViewChild('input') input;
 
     @Input() message = "default value!";
