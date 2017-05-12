@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.4.0/Rx.min.js"></script>
+</head>
+<body>
+
+
+<script>
+    var observable = Rx.Observable.interval(1000);
+    var observer = {
+        next: function(value) {
+            console.log(value);
+        }
+    };
+
+    observable.map(function(value) {
+        return 'Number: ' + value;
+    }).throttleTime(1900).subscribe(observer);
+
+</script>
+</body>
+</html>
