@@ -13,6 +13,6 @@ export class AppComponent {
 
  constructor(){
    this.clock.subscribe(console.log.bind(console));
- }
+ };
 
 }
