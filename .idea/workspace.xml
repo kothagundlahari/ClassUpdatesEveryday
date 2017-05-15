@@ -24,8 +24,8 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reduxApp/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="300">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding>
                 <element signature="e#84#126#0" expanded="true" />
               </folding>
@@ -322,12 +322,12 @@
       <workItem from="1494557135234" duration="465000" />
       <workItem from="1494603229644" duration="257000" />
       <workItem from="1494603503805" duration="8383000" />
-      <workItem from="1494864872848" duration="3499000" />
+      <workItem from="1494864872848" duration="3998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27103000" />
+    <option name="totallyTimeSpent" value="27602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -750,8 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reduxApp/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="300">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
             <element signature="e#84#126#0" expanded="true" />
           </folding>
