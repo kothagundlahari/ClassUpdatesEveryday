@@ -1,7 +1,6 @@
 import { TestBed, inject } from '@angular/core/testing';
-import { addProviders, async, inject } from '@angular/core/testing';
-import { WikipediaSearchService } from './wikipedia-search.service';
 
+import { WikipediaSearchService } from './wikipedia-search.service';
 
 describe('WikipediaSearchService', () => {
   beforeEach(() => {
