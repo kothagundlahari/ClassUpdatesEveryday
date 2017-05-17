@@ -9545,7 +9545,7 @@ var Main = React.createClass({
     }
 });
 
-ReactDOM.render(React.createElement(Main, null), document.getElementByID('app'));
+ReactDOM.render(React.createElement(Main, null), document.getElementById('app'));
 
 /***/ }),
 /* 83 */
