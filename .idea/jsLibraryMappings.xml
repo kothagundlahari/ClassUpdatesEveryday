@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$/reduxApp" libraries="{ClassUpdatesEveryday/reduxApp/node_modules}" />
-    <file url="PROJECT" libraries="{ClassUpdatesEveryday/reduxApp/node_modules}" />
+    <excludedPredefinedLibrary name="ClassUpdatesEveryday/ES6 SetUp/node_modules" />
+    <excludedPredefinedLibrary name="ClassUpdatesEveryday/angular2App/node_modules" />
+    <excludedPredefinedLibrary name="ClassUpdatesEveryday/firstReactApp/node_modules" />
   </component>
 </project>
