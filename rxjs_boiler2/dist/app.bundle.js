@@ -56,38 +56,29 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	// const source$ = Rx.Observable.range(25,100);
 	//
-	// source$.subscribe(
-	//  x=> {console.log(x);},
-	//     err =>{
-	//         console.log(err);},
-	//     complete =>{
-	//         console.log('Complete');
-	//     }
+	// function getGithubUser(username) {
+	//     return $.ajax({
+	//         url: 'https://api.github.com/users' + username,
+	//         dataType: 'jsnop',
 	//
-	// )
+	//     }).promise();
+	// }
+	//
+	// Rx.Observable.fromPromise(getGithubUser('kothagundlahari'))
+	//     .map(user =>user.data.name)
+	//     .subcribe(name =>{
+	//         console.log(name);
+	//     });
+	//
+	//
 
-	// const source$ = Rx.Observable.interval(1000);
-	//
-	// source$.subscribe(
-	//     x=> {console.log(x);},
-	//     err =>{
-	//         console.log(err);},
-	//     complete =>{
-	//         console.log('Complete');
-	//     }
-	//
-	// )
+	var source$ = _Rx2.default.Observable.interval(1000).take(10).map(function (v) {
+	  return v * v;
+	});
 
-	var source$ = _Rx2.default.Observable.timer(5000, 2000).take(5);
-
-	source$.subscribe(function (x) {
-	    console.log(x);
-	}, function (err) {
-	    console.log(err);
-	}, function (complete) {
-	    console.log('Complete');
+	source$.subscribe(function (v) {
+	  return console.log(v);
 	});
 
 /***/ }),

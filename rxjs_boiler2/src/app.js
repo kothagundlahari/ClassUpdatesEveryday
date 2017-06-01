@@ -1,39 +1,24 @@
 import $ from 'jquery';
 import Rx from 'rxjs/Rx';
-
-// const source$ = Rx.Observable.range(25,100);
 //
-// source$.subscribe(
-//  x=> {console.log(x);},
-//     err =>{
-//         console.log(err);},
-//     complete =>{
-//         console.log('Complete');
-//     }
+// function getGithubUser(username) {
+//     return $.ajax({
+//         url: 'https://api.github.com/users' + username,
+//         dataType: 'jsnop',
 //
-// )
-
-// const source$ = Rx.Observable.interval(1000);
+//     }).promise();
+// }
 //
-// source$.subscribe(
-//     x=> {console.log(x);},
-//     err =>{
-//         console.log(err);},
-//     complete =>{
-//         console.log('Complete');
-//     }
+// Rx.Observable.fromPromise(getGithubUser('kothagundlahari'))
+//     .map(user =>user.data.name)
+//     .subcribe(name =>{
+//         console.log(name);
+//     });
 //
-// )
+//
 
-const source$ = Rx.Observable.timer(5000,2000)
-    .take(5);
+const source$ = Rx.Observable.interval(1000)
+.take(10)
+.map(v=> v* v);
 
-source$.subscribe(
-    x=> {console.log(x);},
-    err =>{
-        console.log(err);},
-    complete =>{
-        console.log('Complete');
-    }
-
-)
+source$.subscribe(v=> console.log(v));
