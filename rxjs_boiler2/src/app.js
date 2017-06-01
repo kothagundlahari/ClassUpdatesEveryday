@@ -1,32 +1,39 @@
 import $ from 'jquery';
 import Rx from 'rxjs/Rx';
 
-const myPromise = new promise((resolve, reject)=>{
-    console.log('Creating Promise');
-    setTimeout(()=>{
-        reslove('Hello from promise');
+// const source$ = Rx.Observable.range(25,100);
+//
+// source$.subscribe(
+//  x=> {console.log(x);},
+//     err =>{
+//         console.log(err);},
+//     complete =>{
+//         console.log('Complete');
+//     }
+//
+// )
 
-    }, 3000);
-});
+// const source$ = Rx.Observable.interval(1000);
+//
+// source$.subscribe(
+//     x=> {console.log(x);},
+//     err =>{
+//         console.log(err);},
+//     complete =>{
+//         console.log('Complete');
+//     }
+//
+// )
 
-function getUser(username){
-    return $.ajax({
-        url: 'https://api.github.com/users/'+username,
-        dataType : jsnop
-    }).promise()
-};
+const source$ = Rx.Observable.timer(5000,2000)
+    .take(5);
 
+source$.subscribe(
+    x=> {console.log(x);},
+    err =>{
+        console.log(err);},
+    complete =>{
+        console.log('Complete');
+    }
 
-const inputSource$ = Rx.Observable.fromEvent($('#input'), 'keyup');
-
-inputSource$.subscribe(e=>{
-    Rx.Observable.fromPromise(getUser(e.target.value))
-        .subscribe(x=>{
-            $('#name').text(x.data.name);
-            $('#blog').text(x.data.blog);
-            $('#repos').text('Public Repos:' +x.data.repos);
-
-        })
-
-});
-
+)

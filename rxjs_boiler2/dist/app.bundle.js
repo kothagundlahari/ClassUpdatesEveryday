@@ -56,28 +56,38 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var myPromise = new promise(function (resolve, reject) {
-	    console.log('Creating Promise');
-	    setTimeout(function () {
-	        reslove('Hello from promise');
-	    }, 3000);
-	});
+	// const source$ = Rx.Observable.range(25,100);
+	//
+	// source$.subscribe(
+	//  x=> {console.log(x);},
+	//     err =>{
+	//         console.log(err);},
+	//     complete =>{
+	//         console.log('Complete');
+	//     }
+	//
+	// )
 
-	function getUser(username) {
-	    return _jquery2.default.ajax({
-	        url: 'https://api.github.com/users/' + username,
-	        dataType: jsnop
-	    }).promise();
-	};
+	// const source$ = Rx.Observable.interval(1000);
+	//
+	// source$.subscribe(
+	//     x=> {console.log(x);},
+	//     err =>{
+	//         console.log(err);},
+	//     complete =>{
+	//         console.log('Complete');
+	//     }
+	//
+	// )
 
-	var inputSource$ = _Rx2.default.Observable.fromEvent((0, _jquery2.default)('#input'), 'keyup');
+	var source$ = _Rx2.default.Observable.timer(5000, 2000).take(5);
 
-	inputSource$.subscribe(function (e) {
-	    _Rx2.default.Observable.fromPromise(getUser(e.target.value)).subscribe(function (x) {
-	        (0, _jquery2.default)('#name').text(x.data.name);
-	        (0, _jquery2.default)('#blog').text(x.data.blog);
-	        (0, _jquery2.default)('#repos').text('Public Repos:' + x.data.repos);
-	    });
+	source$.subscribe(function (x) {
+	    console.log(x);
+	}, function (err) {
+	    console.log(err);
+	}, function (complete) {
+	    console.log('Complete');
 	});
 
 /***/ }),
