@@ -7430,7 +7430,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rxjs_boiler1/node_modules/yargs/lib/validation.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rxjs_boiler1/node_modules/yargs/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rxjs_boiler1" afterPath="$PROJECT_DIR$/rxjs_boiler1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rxjs_boiler1/index.html" afterPath="$PROJECT_DIR$/rxjs_boiler1/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rxjs_boiler1/src/app.js" afterPath="$PROJECT_DIR$/rxjs_boiler1/src/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rxjs_boiler2/dist/app.bundle.js" afterPath="$PROJECT_DIR$/rxjs_boiler2/dist/app.bundle.js" />
@@ -7455,8 +7454,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rxjs_boiler2/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -7846,12 +7845,12 @@
       <workItem from="1496241996813" duration="11993000" />
       <workItem from="1496257575543" duration="712000" />
       <workItem from="1496258376704" duration="3740000" />
-      <workItem from="1496331456330" duration="6082000" />
+      <workItem from="1496331456330" duration="6271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92682000" />
+    <option name="totallyTimeSpent" value="92871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -7871,7 +7870,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34744525" sideWeight="0.5091633" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258278" sideWeight="0.49002394" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258278" sideWeight="0.49002394" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258278" sideWeight="0.509976" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25338647" sideWeight="0.50782996" order="7" side_tool="true" content_ui="tabs" />
@@ -8187,8 +8186,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rxjs_boiler2/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
