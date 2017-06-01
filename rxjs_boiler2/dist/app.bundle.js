@@ -56,35 +56,16 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	//
-	// function getGithubUser(username) {
-	//     return $.ajax({
-	//         url: 'https://api.github.com/users' + username,
-	//         dataType: 'jsnop',
-	//
-	//     }).promise();
-	// }
-	//
-	// Rx.Observable.fromPromise(getGithubUser('kothagundlahari'))
-	//     .map(user =>user.data.name)
-	//     .subcribe(name =>{
-	//         console.log(name);
-	//     });
-	//
-	//
+	var source1$ = _Rx2.default.Observable.range(0, 5).map(function (v) {
+	  return 'Merge1:' + v;
+	});
 
-	// const source$ = Rx.Observable.interval(1000)
-	// .take(10)
-	// .map(v=> v* v);
-	//
-	// source$.subscribe(v=> console.log(v));
+	var source2$ = _Rx2.default.Observable.range(5, 5).map(function (v) {
+	  return 'Merge2:' + v;
+	});
 
-	var users = [{ name: 'hari', age: '150' }, { name: 'hari1', age: '151' }, { name: 'hari2', age: '152' }];
-
-	var users$ = _Rx2.default.Observable.from(users).pluck('name');
-
-	users$.subscribe(function (x) {
-	    return console.log(x);
+	_Rx2.default.Observable.merge(source1$, source2$).subscribe(function (x) {
+	  return console.og(x);
 	});
 
 /***/ }),
