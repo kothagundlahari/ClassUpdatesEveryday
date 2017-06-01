@@ -56,26 +56,28 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var source$ = new _Rx2.default.Observable(function (observer) {
-	    console.log('Creating Observable');
-	    observer.next("Hello world");
-	    observer.next('hellp hari');
-	    observer.error(new Error('Error : some thing went wrong '));
-
+	var myPromise = new promise(function (resolve, reject) {
+	    console.log('Creating Promise');
 	    setTimeout(function () {
-	        observer.next('time out function');
-	        observer.complete();
+	        reslove('Hello from promise');
 	    }, 3000);
 	});
 
-	source$.catch(function (err) {
-	    return _Rx2.default.Observable.of(err);
-	}).subscribe(function (x) {
-	    console.log(x);
-	}, function (err) {
-	    console.log(err);
-	}, function (complete) {
-	    console.log('Complete');
+	function getUser(username) {
+	    return _jquery2.default.ajax({
+	        url: 'https://api.github.com/users/' + username,
+	        dataType: jsnop
+	    }).promise();
+	};
+
+	var inputSource$ = _Rx2.default.Observable.fromEvent((0, _jquery2.default)('#input'), 'keyup');
+
+	inputSource$.subscribe(function (e) {
+	    _Rx2.default.Observable.fromPromise(getUser(e.target.value)).subscribe(function (x) {
+	        (0, _jquery2.default)('#name').text(x.data.name);
+	        (0, _jquery2.default)('#blog').text(x.data.blog);
+	        (0, _jquery2.default)('#repos').text('Public Repos:' + x.data.repos);
+	    });
 	});
 
 /***/ }),
