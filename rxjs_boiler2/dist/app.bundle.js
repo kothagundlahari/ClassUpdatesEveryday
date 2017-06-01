@@ -56,10 +56,31 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	_Rx2.default.Observable.of('hello').mergeMap(function (v) {
-	  return _Rx2.default.Observable.of(v + 'Every One');
-	}).subscribe(function (x) {
-	  return console.log(x);
+	// Rx.Observable.of('hello')
+	//   .mergeMap(v => {
+	//     return  Rx.Observable.of(v+ 'Every One')
+	// })
+	// .subscribe(x => console.log(x));
+
+
+	function getUser(username) {
+	    return _jquery2.default.ajax({
+	        url: 'https:/api.github.com/users/' + username,
+	        datatype: 'jsnop'
+
+	    }).promise();
+	}
+
+	var inputsource$ = _Rx2.default.Observable.fromEvent((0, _jquery2.default)('#input'), 'keyup').map(function (e) {
+	    return e.target.value;
+	}).switchMap(function (v) {
+	    return _Rx2.default.Observable.fromPromise(getUser(v));
+	});
+
+	inputsource$.subscribe(function (x) {
+	    (0, _jquery2.default)('#name').text(x.data.name);
+	    (0, _jquery2.default)('#blog').text(x.data.blog);
+	    (0, _jquery2.default)('#repos').text('Public Repos: ' + x.data.public_repos);
 	});
 
 /***/ }),
