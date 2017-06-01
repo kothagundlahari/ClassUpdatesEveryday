@@ -56,24 +56,10 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	// const source1$ = Rx.Observable.range(0,5).map(v=>'Merge1:' +v);
-	//
-	// const source2$ = Rx.Observable.range(5,5).map(v=>'Merge2:' +v);
-	//
-	// Rx.Observable.merge(source1$,source2$)
-	// .subscribe(x=> console.og(x));
-
-
-	var source1$ = _Rx2.default.Observable.range(0, 5).map(function (v) {
-	    return 'Merge1:' + v;
-	});
-
-	var source2$ = _Rx2.default.Observable.range(5, 5).map(function (v) {
-	    return 'Merge2:' + v;
-	});
-
-	_Rx2.default.Observable.concat(source1$, source2$).subscribe(function (x) {
-	    return console.log(x);
+	_Rx2.default.Observable.of('hello').mergeMap(function (v) {
+	  return _Rx2.default.Observable.of(v + 'Every One');
+	}).subscribe(function (x) {
+	  return console.log(x);
 	});
 
 /***/ }),
