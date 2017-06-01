@@ -73,12 +73,18 @@
 	//
 	//
 
-	var source$ = _Rx2.default.Observable.interval(1000).take(10).map(function (v) {
-	  return v * v;
-	});
+	// const source$ = Rx.Observable.interval(1000)
+	// .take(10)
+	// .map(v=> v* v);
+	//
+	// source$.subscribe(v=> console.log(v));
 
-	source$.subscribe(function (v) {
-	  return console.log(v);
+	var users = [{ name: 'hari', age: '150' }, { name: 'hari1', age: '151' }, { name: 'hari2', age: '152' }];
+
+	var users$ = _Rx2.default.Observable.from(users).pluck('name');
+
+	users$.subscribe(function (x) {
+	    return console.log(x);
 	});
 
 /***/ }),
