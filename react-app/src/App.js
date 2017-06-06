@@ -21,13 +21,17 @@ class App extends React.Component {
         return <button onClick={this.update}>{this.state.val}</button>
     }
 
-    static componentDidMount() {
-        console.log('componentDidMount')
+    componentDidMount(){
+        console.log('componentDidMount');
+        this.inc = setInterval(this.update,500)
     }
 
-    static componentWillUnmount(){
+
+    componentWillUnmount(){
         console.log('componentWillUnmount')
+        clearInterval(this.inc);
     }
+
 
 
 }
