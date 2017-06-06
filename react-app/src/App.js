@@ -1,59 +1,36 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import  ReactDOM from 'react-dom';
 
 class App extends React.Component {
-    constructor() {
+    constructor(){
         super();
-        this.state = {val: 0};
-        this.update = this.update.bind(this)
+        this.state = {increasing: false}
     }
-
-    update() {
-        this.setState({val: this.state.val + 1})
+    update(){
+        ReactDOM.render(
+            <App val={this.props.val + 1} />,
+            document.getElementById('root'))
     }
-
-    static componentWillMount() {
-        console.log('componentWillMount')
+    componentWillReceiveProps(nextProps){
+        this.setState({increasing: nextProps.val > this.props.val})
     }
-
-    render() {
-        console.log('render');
-        return <button onClick={this.update}>{this.state.val}</button>
+    static shouldComponentUpdate(nextProps, nextState) {
+        return nextProps.val % 5 === 0;
     }
-
-    componentDidMount(){
-        console.log('componentDidMount');
-        this.inc = setInterval(this.update,500)
-    }
-
-
-    componentWillUnmount(){
-        console.log('componentWillUnmount')
-        clearInterval(this.inc);
-    }
-
-
-
-}
-
-class Wrapper extends React.Component {
-    static mount(){
-        ReactDOM.render(<App />, document.getElementById('a'))
-    }
-    static unmount(){
-        ReactDOM.unmountComponentAtNode(document.getElementById('a'))
-    }
-
-    render() {
+    render(){
+        console.log(this.state.increasing)
         return (
-            <div>
-                <button onClick={Wrapper.mount.bind(this)}>Mount</button>
-                <button onClick={Wrapper.unmount.bind(this)}>UnMount</button>
-                <div id="a"></div>
-            </div>
-
+            <button onClick={this.update.bind(this)}>
+                {this.props.val}
+            </button>
         )
     }
+    static componentDidUpdate(prevProps, prevState) {
+        console.log(`prevProps: ${prevProps.val}`)
+    }
 }
 
-export default Wrapper
+App.defaultProps = {val: 0};
+
+export default  App
+
