@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{babel}" />
+    <file url="PROJECT" libraries="{babel, react-15.1.0, react-dom-15.1.0}" />
   </component>
 </project>
