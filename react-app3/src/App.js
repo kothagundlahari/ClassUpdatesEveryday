@@ -19,7 +19,7 @@ const HOC = (InnerComponent) => class extends React.Component {
             />
         )
     }
-}
+};
 
 class App extends React.Component {
     render(){
@@ -35,7 +35,7 @@ class App extends React.Component {
 
 const Button = HOC((props) =>
     <button onClick={props.update}>{props.children} - {props.count}</button>
-)
+);
 
 class Label extends React.Component {
     componentWillMount(){
@@ -50,7 +50,7 @@ class Label extends React.Component {
     }
 }
 
-const LabelHOC = HOC(Label)
+const LabelHOC = HOC(Label);
 
 export default  App
 
