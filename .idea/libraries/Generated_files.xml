@@ -2,10 +2,12 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/react-app/src/App.js" />
         <item url="file://$PROJECT_DIR$/dist/es6/app.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/dist/react-app/src/App.js" />
       <root url="file://$PROJECT_DIR$/dist/es6/app.js" />
     </CLASSES>
     <SOURCES />
