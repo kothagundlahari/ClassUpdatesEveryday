@@ -22,6 +22,7 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
 .Todo-App {
   padding-top:20px;
   display: inline-block;
