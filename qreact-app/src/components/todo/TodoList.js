@@ -1,8 +1,9 @@
 /**
  * Created by hari on 6/12/17.
  */
-import React from 'react'
-import {TodoItem} from './TodoItem'
+import React from 'react';
+import {TodoItem} from './TodoItem';
+import PropTypes from 'prop-types';
 
 
 export const TodoList = (props) => {
@@ -16,5 +17,5 @@ export const TodoList = (props) => {
 };
 
 TodoList.propTypes = {
-    todos: React.PropTypes.array.isRequired
+    todos: PropTypes.array.isRequired
 };

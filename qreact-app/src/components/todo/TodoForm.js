@@ -1,8 +1,8 @@
 /**
  * Created by hari on 6/12/17.
  */
-import React from 'react';
-
+import React from "react";
+import PropTypes from 'prop-types';
 
 export const TodoForm = (props) => (
     <form>
@@ -10,8 +10,8 @@ export const TodoForm = (props) => (
                onChange={props.handleInputChange}
                value={props.currentTodo}/>
     </form>
-)
+);
 
 TodoForm.PropTypes = {
-    currentTodo: React.PropTypes.string
-}
+    currentTodo: PropTypes.string
+};
