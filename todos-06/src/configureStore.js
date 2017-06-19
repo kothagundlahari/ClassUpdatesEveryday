@@ -1,3 +1,6 @@
+/**
+ * Created by hari on 6/15/17.
+ */
 import { createStore } from 'redux';
 import throttle from 'lodash/throttle';
 import todoApp from './reducers';
