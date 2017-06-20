@@ -4,11 +4,11 @@ import AddTodo from './AddTodo';
 import VisibleTodoList from './VisibleTodoList';
 
 const App = () => (
-  <div>
-    <AddTodo />
-    <VisibleTodoList />
-    <Footer />
-  </div>
+    <div>
+        <AddTodo />
+        <VisibleTodoList />
+        <Footer />
+    </div>
 );
 
 App.propTypes = {

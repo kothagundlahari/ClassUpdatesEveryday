@@ -31,7 +31,7 @@ const todos = combineReducers({
 export default todos;
 
 const getAllTodos = (state) =>
-  state.allIds.map(id => state.byId[id]);
+    state.allIds.map(id => state.byId[id]);
 
 export const getVisibleTodos = (state, filter) => {
   const allTodos = getAllTodos(state);
