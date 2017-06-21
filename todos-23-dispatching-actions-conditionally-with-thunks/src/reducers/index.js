@@ -21,4 +21,4 @@ export const getVisibleTodos = (state, filter) => {
 };
 
 export const getIsFetching = (state, filter) =>
-  fromList.getIsFetching(state.listByFilter[filter]);
+    fromList.getIsFetching(state.listByFilter[filter]);
