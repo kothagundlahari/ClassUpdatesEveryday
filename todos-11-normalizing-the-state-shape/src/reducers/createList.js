@@ -1,9 +1,8 @@
-/**
- * Created by hari on 6/20/17.
- */
+import { combineReducers } from 'redux';
+
 const createList = (filter) => { // eslint-disable-line arrow-body-style
-  return (state = [], action) => {
-    if (action.filter !== filter) {
+  const ids = (state = [], action) => {
+    if (filter !== action.filter) {
       return state;
     }
     switch (action.type) {
@@ -13,8 +12,28 @@ const createList = (filter) => { // eslint-disable-line arrow-body-style
         return state;
     }
   };
+
+  const isFetching = (state = false, action) => {
+    if (filter !== action.filter) {
+      return state;
+    }
+    switch (action.type) {
+      case 'REQUEST_TODOS':
+        return true;
+      case 'RECEIVE_TODOS':
+        return false;
+      default:
+        return state;
+    }
+  };
+
+  return combineReducers({
+    ids,
+    isFetching,
+  });
 };
 
 export default createList;
 
-export const getIds = (state) => state;
+export const getIds = (state) => state.ids;
+export const getIsFetching = state => state.isFetching;
