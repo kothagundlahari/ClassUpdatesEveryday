@@ -2,19 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89651f68-2e48-4b52-8867-44308dcfd437" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qreact-app/src/lib/todoHelpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qreact-app/src/lib/todoHelpers.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-21/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todos-22/src/api/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todos-22/src/components/Root.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todos-22/src/configureStore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todos-22/src/reducers/byId.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todos-22/src/reducers/createList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todos/src/components/Root.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todos/src/configureStore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todos/src/localStorage.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/todos-22/src/reducers/todos.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/todos-22/src/reducers/visibilityFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/todos/src/components/Link.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos" afterPath="$PROJECT_DIR$/todos" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos-22" afterPath="$PROJECT_DIR$/todos-22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qreact-app/package.json" afterPath="$PROJECT_DIR$/qreact-app/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qreact-app/src/App.css" afterPath="$PROJECT_DIR$/qreact-app/src/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qreact-app/src/App.js" afterPath="$PROJECT_DIR$/qreact-app/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qreact-app/src/App.test.js" afterPath="$PROJECT_DIR$/qreact-app/src/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qreact-app/src/components/todo/TodoForm.js" afterPath="$PROJECT_DIR$/qreact-app/src/components/todo/TodoForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qreact-app/src/components/todo/TodoItem.js" afterPath="$PROJECT_DIR$/qreact-app/src/components/todo/TodoItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qreact-app/src/components/todo/TodoList.js" afterPath="$PROJECT_DIR$/qreact-app/src/components/todo/TodoList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qreact-app/src/index.css" afterPath="$PROJECT_DIR$/qreact-app/src/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qreact-app/src/index.js" afterPath="$PROJECT_DIR$/qreact-app/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos-22/.idea/workspace.xml" afterPath="$PROJECT_DIR$/todos-22/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos-22/package.json" afterPath="$PROJECT_DIR$/todos-22/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos-22/src/actions/index.js" afterPath="$PROJECT_DIR$/todos-22/src/actions/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos-22/src/components/AddTodo.js" afterPath="$PROJECT_DIR$/todos-22/src/components/AddTodo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos-22/src/components/App.js" afterPath="$PROJECT_DIR$/todos-22/src/components/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos-22/src/components/FilterLink.js" afterPath="$PROJECT_DIR$/todos-22/src/components/FilterLink.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos-22/src/components/Footer.js" afterPath="$PROJECT_DIR$/todos-22/src/components/Footer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos-22/src/components/Todo.js" afterPath="$PROJECT_DIR$/todos-22/src/components/Todo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos-22/src/components/TodoList.js" afterPath="$PROJECT_DIR$/todos-22/src/components/TodoList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos-22/src/components/VisibleTodoList.js" afterPath="$PROJECT_DIR$/todos-22/src/components/VisibleTodoList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos-22/src/index.js" afterPath="$PROJECT_DIR$/todos-22/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos-22/src/reducers/index.js" afterPath="$PROJECT_DIR$/todos-22/src/reducers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos-23-dispatching-actions-conditionally-with-thunks/.idea/workspace.xml" afterPath="$PROJECT_DIR$/todos-23-dispatching-actions-conditionally-with-thunks/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/package.json" afterPath="$PROJECT_DIR$/todos/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/src/actions/index.js" afterPath="$PROJECT_DIR$/todos/src/actions/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/src/components/AddTodo.js" afterPath="$PROJECT_DIR$/todos/src/components/AddTodo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/src/components/App.js" afterPath="$PROJECT_DIR$/todos/src/components/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/src/components/FilterLink.js" afterPath="$PROJECT_DIR$/todos/src/components/FilterLink.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/src/components/Footer.js" afterPath="$PROJECT_DIR$/todos/src/components/Footer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/src/components/Todo.js" afterPath="$PROJECT_DIR$/todos/src/components/Todo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/src/components/TodoList.js" afterPath="$PROJECT_DIR$/todos/src/components/TodoList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/src/components/VisibleTodoList.js" afterPath="$PROJECT_DIR$/todos/src/components/VisibleTodoList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/src/index.js" afterPath="$PROJECT_DIR$/todos/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/src/reducers/todos.js" afterPath="$PROJECT_DIR$/todos/src/reducers/todos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todos/src/reducers/visibilityFilter.js" afterPath="$PROJECT_DIR$/todos/src/reducers/visibilityFilter.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,15 +58,21 @@
   <component name="FavoritesManager">
     <favorites_list name="ClassUpdatesEveryday" />
   </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="415967" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="474747" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="D2D4D5" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="4E5579" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/qreact-app/src/index.js">
+    <leaf>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/redux-21/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,9 +192,16 @@
     <handled-path value="$PROJECT_DIR$/dist/qreact-app/node_modules" />
     <handled-path value="$PROJECT_DIR$/es64react/node_modules" />
     <handled-path value="$PROJECT_DIR$/firstReactApp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/qreact-app/node_modules" />
     <handled-path value="$PROJECT_DIR$/react-app/node_modules" />
+    <handled-path value="$PROJECT_DIR$/redux-21/node_modules" />
     <handled-path value="$PROJECT_DIR$/rxjs_boiler2/node_modules" />
+    <handled-path value="$PROJECT_DIR$/todos-06/node_modules" />
+    <handled-path value="$PROJECT_DIR$/todos-11-normalizing-the-state-shape/node_modules" />
+    <handled-path value="$PROJECT_DIR$/todos-22/node_modules" />
+    <handled-path value="$PROJECT_DIR$/todos-23-dispatching-actions-conditionally-with-thunks/node_modules" />
+    <handled-path value="$PROJECT_DIR$/todos/node_modules" />
     <handled-path value="$PROJECT_DIR$/typeScript2/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
@@ -225,7 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="qreact-app" />
+              <option name="myItemId" value="redux-21" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -239,59 +280,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="qreact-app" />
+              <option name="myItemId" value="redux-21" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassUpdatesEveryday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassUpdatesEveryday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qreact-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassUpdatesEveryday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassUpdatesEveryday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qreact-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -498,11 +491,14 @@
       <workItem from="1497285165282" duration="14323000" />
       <workItem from="1497310116787" duration="563000" />
       <workItem from="1497367141711" duration="21000" />
+      <workItem from="1498074083022" duration="39000" />
+      <workItem from="1498074169728" duration="80000" />
+      <workItem from="1498082022806" duration="502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117301000" />
+    <option name="totallyTimeSpent" value="117922000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,17 +510,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="23" width="1253" height="777" extended-state="6" />
+    <frame x="27" y="23" width="1253" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32630098" sideWeight="0.4943182" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21185064" sideWeight="0.49217004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21149242" sideWeight="0.49217004" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34744525" sideWeight="0.5091633" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32770744" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32288828" sideWeight="0.52597404" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32348806" sideWeight="0.47402596" order="11" side_tool="false" content_ui="tabs" x="-73" y="158" width="1232" height="230" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25338647" sideWeight="0.50782996" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -537,14 +535,12 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32348806" sideWeight="0.52597404" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33755276" sideWeight="0.49675325" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
@@ -634,13 +630,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/firstReactApp/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/firstReactApp/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -909,16 +898,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qreact-app/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="161">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redux-21/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
